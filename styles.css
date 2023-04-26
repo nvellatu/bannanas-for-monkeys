@@ -1,0 +1,30 @@
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: turquoise;
+    border: 2px solid black;
+    border-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.header_container_links_container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header_container_links_container > a{
+    text-decoration: none;
+    color: black;
+}
+
+.title_container{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 50px;
+}
+.title_container > .title_container_left{
+    /* padding-right: ; */
+}
