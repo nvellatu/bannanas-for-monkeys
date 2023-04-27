@@ -25,6 +25,27 @@
     border: 2px solid black;
     padding: 50px;
 }
-.title_container > .title_container_left{
-    /* padding-right: ; */
+
+.information_container{
+    display: flex;
+    background-color: turquoise;
+    border-left: 2px solid black; 
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.info_images{
+    width: 120px; 
+    height: 120px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.info_text{
+    width: 120px;
+    text-align: center;
+}
+.info_text > a{
+    text-decoration: none;
+    color: black;
 }
