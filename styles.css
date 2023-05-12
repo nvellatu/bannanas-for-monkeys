@@ -49,3 +49,20 @@
     text-decoration: none;
     color: black;
 }
+
+.quote_container{
+    background-color: #968E85;
+    border: 2px solid black;
+    border-top: 0px solid black;;
+    padding: 50px;
+}
+.quote{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+.quote_author{
+    padding-top: 15px;
+    font-weight: bold;    
+    text-align: end;
+}
