@@ -4,8 +4,8 @@
     background-color: turquoise;
     border: 2px solid black;
     border-bottom: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 7%;
+    padding-right: 7%;
     
 }
 .header_container_links_container{
@@ -24,6 +24,10 @@
     background-color: yellow;
     border: 2px solid black;
     padding: 50px;
+    justify-content:  center;
+}
+.title_container_left{
+    max-width: 667px;
 }
 
 .information_container{
@@ -32,7 +36,8 @@
     border-left: 2px solid black; 
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
     padding-bottom: 40px;
 }
 .info_images{
@@ -55,11 +60,17 @@
     border: 2px solid black;
     border-top: 0px solid black;;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .quote{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: larger;
+    max-width: 1000px;
+    position: relative;
+    
 }
 .quote_author{
     padding-top: 15px;
